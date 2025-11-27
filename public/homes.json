@@ -1,0 +1,247 @@
+[
+  {
+    "image": "https://cdn.pixabay.com/photo/2017/12/14/13/20/whatsapp-3018997_1280.jpg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc",
+    "id": 1,
+    "description": "Simple, secure messaging and calling for free.",
+    "size": 50,
+    "reviews": 120000000,
+    "ratingAvg": 4.5,
+    "download": "5.0M",
+    "downloads-count": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2980000 },
+      { "name": "2 star", "count": 34200000 },
+      { "name": "3 star", "count": 27200000 },
+      { "name": "4 star", "count": 150000000 },
+      { "name": "5 star", "count": 620000000}
+
+    ],
+    "notes": "WhatsApp is a widely used messaging app that allows users to send text messages, voice messages, make voice and video calls, and share images, documents, and other media. It uses end-to-end encryption to ensure that only the sender and recipient can read the messages. WhatsApp also supports group chats, making it easy to communicate with multiple people at once. The app is available on various platforms, including iOS, Android, and web browsers. With its user-friendly interface and robust features, WhatsApp has become a popular choice for personal and business communication worldwide."
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2020/05/11/20/09/icons-5160066_1280.jpg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc",
+    "id": 2,
+    "description": "Connect with friends, family, and communities.",
+    "size": 85,
+    "reviews": 150000000,
+    "ratingAvg": 4.2,
+     "download": "6.0M",
+    "downloads-count": 6000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2600000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 61000000 },
+      { "name": "4 star", "count": 640000000 },
+      { "name": "5 star", "count": 84000000 }
+    ],
+      "notes": "Facebook is a global social platform that helps people connect and share content easily. Users can post photos, videos, stories, and updates about their daily life. It allows communication through comments, reactions, and Messenger chat. Facebook Groups help people with similar interests come together, while Pages keep users updated on news, entertainment, and businesses. Marketplace offers a convenient way to buy and sell locally. Live video and events make interaction more engaging. The platform also provides privacy settings to control who sees your content. Overall, Facebook keeps your social connections organized in one simple app."
+  },
+ 
+  {
+    "image": "https://cdn.pixabay.com/photo/2017/10/04/11/45/messenger-2815922_1280.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms Inc",
+    "id": 3,
+    "description": "Instant messaging, calling, and sharing with friends.",
+    "size": 60,
+    "reviews": 73000000,
+    "ratingAvg": 4.3,
+      "download": "9.5M",
+    "downloads-count": 9000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2900000 },
+      { "name": "2 star", "count": 3800000 },
+      { "name": "3 star", "count": 46000000 },
+      { "name": "4 star", "count": 79000000 },
+      { "name": "5 star", "count": 45000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2021/05/12/22/13/social-media-6249432_1280.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc",
+    "id": 4,
+    "description": "Share photos, reels, and explore creative content.",
+    "size": 72,
+    "reviews": 110000000,
+    "ratingAvg": 4.4,
+      "download": "8.0M",
+    "downloads-count": 8000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 3400000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 66000000 }
+    ],
+        "notes": "Instagram is a popular platform for sharing photos, videos, and creative short Reels. It encourages visual storytelling and creative exploration. Users can follow friends, celebrities, and creators to stay updated with trending content. Instagram offers filters, editing tools, and effects for professional-looking posts. Stories allow sharing quick moments that disappear after 24 hours. The Explore page helps discover new interests, creators, and trends. Messaging, voice notes, and video calls make it a complete social platform. Instagram is widely used for business marketing, brand growth, and content creation."
+
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2021/10/24/21/22/telegram-6739316_1280.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram LLC",
+    "id": 5,
+    "description": "Fast, cloud-based and secure messaging service.",
+    "size": 40,
+    "reviews": 42000000,
+    "ratingAvg": 4.5,
+      "download": "9.0M",
+    "downloads-count": 9000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2900000 },
+      { "name": "2 star", "count": 3400000 },
+      { "name": "3 star", "count": 6400000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 21000000 }
+    ],
+        "notes": "Telegram is a cloud-based messaging app known for its speed and security. It offers end-to-end encryption for secret chats, ensuring that only the sender and recipient can read the messages. Telegram supports multimedia sharing, including photos, videos, documents, and voice messages. Users can create large group chats with up to 200,000 members and channels for broadcasting messages to unlimited audiences. The app also features bots for various tasks, customizable themes, and self-destructing messages for added privacy. Telegram is available on multiple platforms, including iOS, Android, and desktop, making it easy to stay connected across devices."
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2018/12/13/19/39/youtube-3873587_1280.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Watch, upload, and share videos globally.",
+    "size": 90,
+    "reviews": 180000000,
+    "ratingAvg": 4.5,
+     "download": "1.0M",
+    "downloads-count": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 52000000 },
+      { "name": "4 star", "count": 68000000 },
+      { "name": "5 star", "count": 124000000 }
+    ],
+        "notes": "YouTube is the world's largest video-sharing platform, allowing users to watch, upload, and share videos on a wide range of topics. It features content from creators worldwide, including music videos, tutorials, vlogs, documentaries, and live streams. Users can subscribe to channels, create playlists, and engage with content through likes, comments, and shares. YouTube also offers personalized recommendations based on viewing history. The platform supports monetization for creators through ads and memberships. Available on various devices, YouTube provides an accessible way to explore and enjoy video content globally."
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2020/07/04/09/57/tiktok-5369003_1280.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 7,
+    "description": "Create and share short videos with a global audience.",
+    "size": 95,
+    "reviews": 89000000,
+    "ratingAvg": 4.4,
+      "download": "3.0M",
+    "downloads-count": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 52000000 },
+      { "name": "4 star", "count": 68000000 },
+      { "name": "5 star", "count": 124000000 }
+    ],
+        "notes": "TikTok is a dynamic social media platform that allows users to create, share, and discover short videos. It features a wide range of content, including lip-syncing, dancing, comedy skits, educational clips, and viral challenges. The app's powerful algorithm curates personalized video feeds based on user interactions, making it easy to find engaging content. TikTok offers various editing tools, filters, and effects to enhance videos creatively. Users can follow creators, participate in trends, and engage through likes, comments, and shares. With its vibrant community and diverse content, TikTok has become a popular platform for entertainment and self-expression worldwide."
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2021/01/24/13/41/snapchat-5945224_1280.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 8,
+    "description": "Share moments with friends using snaps and stories.",
+    "size": 70,
+    "reviews": 54000000,
+    "ratingAvg": 4.2,
+     "download": "2.2M",
+    "downloads-count": 2000000000,
+    "ratings": [
+        { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 52000000 },
+      { "name": "4 star", "count": 68000000 },
+      { "name": "5 star", "count": 124000000 }
+    ],
+        "notes": "Snapchat is a multimedia messaging app that allows users to share photos and videos, known as 'snaps,' that disappear after being viewed. The app features Stories, where users can compile snaps into a narrative viewable for 24 hours. Snapchat offers a variety of filters, lenses, and augmented reality effects to enhance snaps creatively. Users can chat with friends, make voice and video calls, and discover content from publishers and creators through the Discover section. The app emphasizes privacy and spontaneity, making it popular among younger audiences for casual communication and sharing everyday moments."
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2021/06/25/12/26/social-media-6363633_1280.jpg",
+    "title": "Twitter",
+    "companyName": "X Corp",
+    "id": 9,
+    "description": "Join trending conversations and share your thoughts.",
+    "size": 55,
+    "reviews": 58000000,
+    "ratingAvg": 4.1,
+     "download": "7.2M",
+    "downloads-count": 7000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 17000000 }
+    ],
+        "notes": "Twitter is a social media platform that enables users to share short messages called tweets, limited to 280 characters. It is widely used for real-time news updates, public conversations, and trending topics. Users can follow other accounts, retweet content, and engage through likes and replies. Twitter also supports multimedia sharing, including images, videos, and GIFs. The platform is popular among individuals, celebrities, businesses, and organizations for communication and marketing. With its fast-paced nature, Twitter serves as a hub for discussions on various subjects, from politics to entertainment."
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2021/04/11/18/50/mobile-phone-6170576_1280.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 10,
+    "description": "Listen to music, podcasts, and playlists from all over the world.",
+    "size": 50,
+    "reviews": 82000000,
+    "ratingAvg": 4.7,
+    "download": "1.0M",
+    "downloads-count": 1000000000,
+
+    "ratings": [
+    { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 52000000 },
+      { "name": "4 star", "count": 68000000 },
+      { "name": "5 star", "count": 124000000 }
+      ],
+          "notes": "Spotify is a leading music streaming platform that offers a vast library of songs, albums, and podcasts from artists around the world. Users can create personalized playlists, discover new music through curated recommendations, and listen to their favorite tracks offline. Spotify provides both free and premium subscription options, with the premium version offering ad-free listening, higher sound quality, and offline downloads. The platform also features social sharing, allowing users to share their favorite music with friends. With its user-friendly interface and extensive content, Spotify has become a popular choice for music lovers globally."},
+    
+      
+    
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/01/26/17/15/gmail-1162901_1280.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Fast, simple, and secure email service by Google.",
+    "size": 32,
+    "reviews": 66000000,
+    "ratingAvg": 4.6,
+     "download": "5.3M",
+    "downloads-count": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4500000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 42000000 }
+    ],
+        "notes": "Gmail is a widely used email service developed by Google, known for its user-friendly interface and robust features. It offers efficient email management with powerful search capabilities, spam filtering, and organization tools like labels and folders. Gmail integrates seamlessly with other Google services such as Google Drive, Google Calendar, and Google Meet, enhancing productivity. The platform supports both web and mobile access, allowing users to stay connected on the go. With features like conversation view, customizable themes, and offline access, Gmail provides a comprehensive email experience for personal and professional use."
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2013/01/29/00/47/magnifying-glass-76520_1280.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Navigation, live traffic, and real-time location updates.",
+    "size": 48,
+    "reviews": 98000000,
+    "ratingAvg": 4.7,
+    "download": "5.2M",
+    "downloads-count": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 980000 },
+      { "name": "2 star", "count": 4200000 },
+      { "name": "3 star", "count": 7200000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 62000000 }
+    ],
+        "notes": "Google Maps is a comprehensive mapping service that provides detailed geographical information and navigation features. It offers turn-by-turn directions for driving, walking, biking, and public transportation. Users can explore maps, view satellite imagery, and find local businesses, restaurants, and landmarks. Google Maps also provides real-time traffic updates, estimated arrival times, and alternative routes to avoid congestion. The platform includes Street View for immersive exploration of locations and allows users to save favorite places and create custom maps. With its extensive features and user-friendly interface, Google Maps is an essential tool for navigation and location discovery."
+  }
+]
