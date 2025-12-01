@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import Allcharts from "../Recharts/Allcharts";
+import Swal from "sweetalert2";
+import "../../index.css";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -51,7 +53,20 @@ const AppDetails = () => {
             </div>
           </div>
           <Link to="/installation" state={details}>
-            <button className="mt-6 bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg">
+            <button
+              className="mt-6 bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg"
+              onClick={() => {
+                Swal.fire({
+                  position: "top-end",
+                  icon: "success",
+                  title: `${details.title} Installed Successfully`,
+                  confirmButtonText: "Yes, Install",
+                  customClass: {
+                    popup: "custom-popup-border",
+                  },
+                });
+              }}
+            >
               <p className="text-black">Install Now ({details.size} MB)</p>
             </button>
           </Link>

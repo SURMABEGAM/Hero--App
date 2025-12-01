@@ -56,9 +56,9 @@ const Navber = () => {
 
         {/* GitHub Icon */}
         <a
-          href="https://github.com"
+          href="https://github.com/SURMABEGAM"
           target="_blank"
-          className="hidden md:flex items-center gap-2 text-gray-700 hover:text-black text-xl font-semibold"
+          className="hidden md:flex items-center gap-2 text-blue-700 hover:text-blue-900 text-xl font-semibold"
         >
           <FaGithub className="text-2xl" />
           GitHub

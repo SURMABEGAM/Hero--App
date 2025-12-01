@@ -4,7 +4,14 @@ const Footer = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
       <nav>
-        <h6 className="footer-title">Services</h6>
+        <h6 className="footer-title">
+          <img
+            src={`/logo.png`}
+            alt="logo"
+            className="w[45px] h-[45px] rounded-2xl inline-block mr-2"
+          />
+          Services
+        </h6>
         <a className="link link-hover">Branding</a>
         <a className="link link-hover">Design</a>
         <a className="link link-hover">Marketing</a>

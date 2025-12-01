@@ -1,5 +1,5 @@
 App Store UI – React + JavaScript+Tailwind CSS
-Live Demo: https://your-live-link.netlify.app
+Live Demo: https://hero-apps50.netlify.app/
 
 একটি আধুনিক App Store UI যেখানে অ্যাপ লিস্ট, ডিটেইলস পেজ, ইনস্টল সিস্টেম, Recharts চার্ট, সার্চ বার সহ সম্পূর্ণ রেসপনসিভ ডিজাইন তৈরি করা হয়েছে React + Tailwind ব্যবহার করে।
 

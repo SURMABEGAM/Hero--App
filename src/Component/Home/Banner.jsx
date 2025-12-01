@@ -19,13 +19,21 @@ const Banner = () => {
           experiences that truly make an impact.
         </p>
         <div className="flex flex-col sm:flex-row gap-5 items-center justify-center">
-          <button className="flex items-center gap-2 px-5 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg shadow-md transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400">
-            <FaAppStoreIos className="text-lg" /> Login with App Store
-          </button>
+          <a
+            href="https://play.google.com/store/apps?hl=en"
+            className="flex items-center gap-2 px-8 py-2 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg shadow-md"
+          >
+            <FaAppStoreIos className="text-lg" />
+            Login with App Store
+          </a>
 
-          <button className="https://play.google.com/store/apps?hl=en  flex items-center gap-2 px-5 py-3 bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg shadow-md transition-all transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-400">
-            <FaGooglePlay className="text-lg" /> Login with Google Play
-          </button>
+          <a
+            href="https://play.google.com/store/games?hl=en"
+            className="flex items-center gap-2 px-8 py-2 bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg shadow-md"
+          >
+            <FaGooglePlay className="text-lg" />
+            Login with Google Play
+          </a>
         </div>
       </div>
 
