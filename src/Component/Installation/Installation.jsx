@@ -40,9 +40,9 @@ const Installation = () => {
   }
 
   return (
-    <div className="max-w-5xl h-[150vh] mx-auto p-5 bg-blue-500 mt-20">
+    <div className="h-[150vh] mx-auto p-5 bg-blue-800 mt-20">
       <div className="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
-        <h1 className="text-3xl font-bold text-blue-800">Installed Apps</h1>
+        <h1 className="text-3xl font-bold text-white">Installed Apps</h1>
 
         {/* Sort Dropdown */}
         <select
@@ -58,7 +58,7 @@ const Installation = () => {
         </select>
       </div>
 
-      <div className="flex flex-col gap-6">
+      <div className="max-w-5xl mx-auto flex flex-col gap-6">
         {installedApps.map((app) => (
           <div
             key={app.id}

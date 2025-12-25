@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Loading from "../../loader/loading";
 import Banner from "./Banner";
 import Card from "./Card";
 import { Link } from "react-router";
 
 const Home = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 800);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <Loading />; // spinner show
   return (
     <div>
       <Banner></Banner>
