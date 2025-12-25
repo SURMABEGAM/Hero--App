@@ -4,14 +4,15 @@ import Swal from "sweetalert2";
 
 const Installation = () => {
   const location = useLocation();
-  // const appData = location
-
   const newApp = location.state;
 
   const [installedApps, setInstalledApps] = useState(() => {
     const saved = localStorage.getItem("installedApps");
     return saved ? JSON.parse(saved) : [];
   });
+
+  const [sortOrder, setSortOrder] = useState("");
+
   useEffect(() => {
     localStorage.setItem("installedApps", JSON.stringify(installedApps));
   }, [installedApps]);
@@ -20,20 +21,42 @@ const Installation = () => {
     if (newApp) {
       setInstalledApps((prev) => {
         const exists = prev.some((app) => app.id === newApp.id);
-        if (!exists) {
-          return [...prev, newApp];
-        }
-        return prev;
+        return exists ? prev : [...prev, newApp];
       });
     }
   }, [newApp]);
 
-  const appData = location.state;
-  if (!appData) return <p className="text-center text-xl">No App Data Found</p>;
+  // const sortedApps = [...installedApps].sort((a, b) => {
+  //   const sizeA = a.size || 0;
+  //   const sizeB = b.size || 0;
+
+  //   if (sortOrder === "asc") return sizeA - sizeB;
+  //   if (sortOrder === "desc") return sizeB - sizeA;
+  //   return 0;
+  // });
+
+  if (!newApp && installedApps.length === 0) {
+    return <p className="text-center text-xl">No App Data Found</p>;
+  }
 
   return (
-    <div className="max-w-5xl mx-auto p-5 mt-20">
-      <h1 className="text-3xl font-bold mb-6 text-blue-800">Installed Apps</h1>
+    <div className="max-w-5xl h-[150vh] mx-auto p-5 bg-blue-500 mt-20">
+      <div className="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
+        <h1 className="text-3xl font-bold text-blue-800">Installed Apps</h1>
+
+        {/* Sort Dropdown */}
+        <select
+          value={sortOrder}
+          onChange={(e) => setSortOrder(e.target.value)}
+          className="w-full sm:w-auto text-base font-semibold border-2 rounded-lg px-4 py-2 focus:outline-none"
+        >
+          <option value="" className="text-gray-400">
+            Sort By Size
+          </option>
+          <option value="desc">High-Low</option>
+          <option value="asc">Low-High</option>
+        </select>
+      </div>
 
       <div className="flex flex-col gap-6">
         {installedApps.map((app) => (
